@@ -10,7 +10,7 @@ namespace WebApplication1.Controllers
         public string Get()
         {
             var appVersion = Environment.GetEnvironmentVariable("appVersion") ?? "not specified";
-            return $"Helloo World!!   Version: {appVersion}";
+            return $"Helloo World, from Staging!!   Version: {appVersion}";
         }
     }
 }
